@@ -1,5 +1,5 @@
 ``` mermaid
-flowchart LR
+flowchart TD
 Start([Başla])-->SU[Serbest Uçuş]
 SU-->Tespit{İHA konumları alındı mı?}
 Tespit-- evet -->uygun{Yakınlarda takibe uygun İHA var mı?}
